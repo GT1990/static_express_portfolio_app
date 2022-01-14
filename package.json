@@ -1,0 +1,29 @@
+{
+  "name": "static_express_portfolio_app",
+  "version": "1.0.0",
+  "description": "A portfolio app using staic node and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GT1990/static_express_portfolio_app.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "express",
+    "portfolio"
+  ],
+  "author": "ahmadibrahim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GT1990/static_express_portfolio_app/issues"
+  },
+  "homepage": "https://github.com/GT1990/static_express_portfolio_app#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pug": "^3.0.2"
+  }
+}
