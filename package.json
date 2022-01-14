@@ -24,6 +24,7 @@
   "homepage": "https://github.com/GT1990/static_express_portfolio_app#readme",
   "dependencies": {
     "express": "^4.17.2",
+    "nodemon": "^2.0.15",
     "pug": "^3.0.2"
   }
 }

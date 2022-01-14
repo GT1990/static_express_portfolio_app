@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "interactive-form",
+      "description": "The Interactive Form was created to implement and display my knowledge of form validation, form customization and interactivity guiding users through a form to avoid errors.",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link": "https://gt1990.github.io/interactive-form/",
+      "github_link": "https://github.com/GT1990/interactive-form/",
+      "image_urls": [
+        "/static/img/project_screenshots/interactive_form/ss1_interactive-form.png",
+        "/static/img/project_screenshots/interactive_form/ss2_interactive-form.png",
+        "/static/img/project_screenshots/interactive_form/ss3_interactive-form.png"
+      ]
+    },
+    {}
+  ]
+}
