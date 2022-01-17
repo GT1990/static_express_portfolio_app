@@ -8,23 +8,27 @@ html(lang="en" dir="ltr")
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/normalize.css')
     link(rel='stylesheet', href='/static/css/styles.css')
+    //- Google Fonts Link
+    link(rel="preconnect", href="https://fonts.googleapis.com")
+    link(rel="preconnect", href="https://fonts.gstatic.com", crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap", rel="stylesheet")
 
   body
     #my-info.sidebar
       .sidebar-info-box
         br
         .thumbnail-box
-          img.thumbnail(src='https://placehold.it/550x350', alt='')
+          img.thumbnail(src='/static/img/profile_pic.jpeg', alt='Profile Picture')
         .dev-intro-box
 
           //- Replace with your name
-          h5 Name
+          h5 Ahmad Ibrahim
 
           //- Replace with description of who you are, what you do, and why you are so awesome
-          p Description
+          p Code, Cars, and Fútbol.
 
           //- Add path from your '/about' route handler to the href below
-          a(href='') Learn More &rarr;
+          a(href='/about') Learn More &rarr;
 
     .wrapper
       .header
