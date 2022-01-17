@@ -13,6 +13,55 @@
         "/static/img/project_screenshots/interactive_form/ss3_interactive-form.png"
       ]
     },
-    {}
+    {
+      "id": 1,
+      "project_name": "object-oriented-programming-game",
+      "description": "The Object Oriented Programming (OOP) game is a random phrase guessing game. The game allows five lives to guess the correct phrase one letter at a time.",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link": "https://gt1990.github.io/object-oriented-programming-game/",
+      "github_link": "https://github.com/GT1990/object-oriented-programming-game/",
+      "image_urls": [
+        "/static/img/project_screenshots/object-oriented-programming-game/ss1_object-oriented-programming-game.png",
+        "/static/img/project_screenshots/object-oriented-programming-game/ss2_object-oriented-programming-game.png",
+        "/static/img/project_screenshots/object-oriented-programming-game/ss3_object-oriented-programming-game.png"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "data-pagination-and-filtering",
+      "description": "The Data-Pagination-And-Filtering displays display 9 students per page with pagination buttons with a search bar feature, at the top of the page, allowing users to filter through the students.",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link": "https://gt1990.github.io/data-pagination-and-filtering/",
+      "github_link": "https://github.com/GT1990/data-pagination-and-filtering/",
+      "image_urls": [
+        "/static/img/project_screenshots/data-pagination-and-filtering/ss1_data-pagination-and-filtering.png",
+        "/static/img/project_screenshots/data-pagination-and-filtering/ss2_data-pagination-and-filtering.png",
+        "/static/img/project_screenshots/data-pagination-and-filtering/ss3_data-pagination-and-filtering.png"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "public_api_requests",
+      "description": " The Public API Requests web application retrieves 12 random users from the randomuser.me api. The application then creates cards and modals for each user based on the data retrieved from the api.",
+      "technologies": ["Javascript", "HTML", "CSS", "API"],
+      "live_link": "https://gt1990.github.io/public_api_requests/",
+      "github_link": "https://github.com/GT1990/public_api_requests/",
+      "image_urls": [
+        "/static/img/project_screenshots/public_api_requests/ss1_public_api_requests.png",
+        "/static/img/project_screenshots/public_api_requests/ss2_public_api_requests.png"
+      ]
+    },
+    {
+      "id": 10,
+      "project_name": "Project_1",
+      "description": "This project is a single page javascript application that displays random quotes.",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link": "https://gt1990.github.io/Project_1/",
+      "github_link": "https://github.com/GT1990/Project_1/",
+      "image_urls": [
+        "/static/img/project_screenshots/project_1/ss1_project_1.png",
+        "/static/img/project_screenshots/project_1/ss2_project_1.png"
+      ]
+    }
   ]
 }
