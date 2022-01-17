@@ -1,0 +1,16 @@
+extends layout.pug
+
+block content
+    nav.nav
+        a(href='/')
+            span &larr;
+            |  Back
+    article.portfolio-error
+
+        h1= `${err.status}`
+        h2= `${err.message}`
+        img(src="/static/img/error.png", alt="Oops error image sign")
+    nav.nav
+        a(href='/')
+            span &larr;
+            |  Back

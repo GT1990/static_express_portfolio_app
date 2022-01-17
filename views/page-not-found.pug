@@ -1,0 +1,16 @@
+extends layout.pug
+
+block content
+    nav.nav
+        a(href='/')
+            span &larr;
+            |  Back
+    article.portfolio-error
+
+        h1= `${err.status}`
+        h2= `${err.message}`
+        img(src="/static/img/404.png", alt="404 page not found error image")
+    nav.nav
+        a(href='/')
+            span &larr;
+            |  Back
