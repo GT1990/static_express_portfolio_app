@@ -1,9 +1,6 @@
+// Added Express
 const express = require("express");
-// const bodyParser = require("body-parser");
-
 const app = express();
-
-// app.use(bodyParser.urlencoded({ extended: false }));
 
 // Path to static files
 app.use("/static", express.static("public"));
@@ -11,6 +8,7 @@ app.use("/static", express.static("public"));
 // Set view engine to pug templates
 app.set("view engine", "pug"); // defaults to views folder
 
+// Put routes in seperate folder
 const mainRoutes = require("./routes/index"); // defaults to index.js
 app.use(mainRoutes);
 
