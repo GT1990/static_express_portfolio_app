@@ -24,11 +24,13 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
   if (err.status === 404) {
     res.status(err.status);
+    console.error(`${err.status} (${err.message})`);
     res.render("page-not-found", { err });
   } else {
     res.status(err.status || 500);
     err.message =
       err.message || "Something went wrong on the server. Please try again.";
+    console.error(`${err.status} (${err.message})`);
     res.render("error", { err });
   }
 });
